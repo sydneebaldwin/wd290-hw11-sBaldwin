@@ -1,7 +1,4 @@
 
-
-
-
 // Joke Generator Homework Hints
 // Use this file as a guide, not as a full answer.
 

@@ -1,66 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pokémon Finder Demo</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <main class="page">
-    <section class="card">
-      <p class="eyebrow">WD290 Class Demo</p>
-      <h1>Pokémon Finder</h1>
-      <p class="intro">
-        Type a Pokémon name, click <strong>Search</strong>, and JavaScript will request data from the PokéAPI.
-      </p>
-
-      <div class="form-row">
-        <label for="pokemonInput">Pokémon name</label>
-        <div class="input-group">
-          <input
-            id="pokemonInput"
-            type="text"
-            placeholder="Try pikachu"
-            autocomplete="off"
-          />
-          <button id="searchBtn" type="button">Search</button>
-        </div>
-      </div>
-
-      <p id="status" class="status" aria-live="polite">
-        Enter a Pokémon name and click Search.
-      </p>
-
-      <section id="pokemonCard" class="pokemon-card hidden" aria-live="polite">
-        <img id="pokemonImage" class="pokemon-image" src="" alt="" />
-
-        <div class="pokemon-info">
-          <h2 id="pokemonName"></h2>
-          <p id="pokemonType" class="type-pill"></p>
-
-          <dl class="stats-list">
-            <div>
-              <dt>Height</dt>
-              <dd id="pokemonHeight"></dd>
-            </div>
-            <div>
-              <dt>Weight</dt>
-              <dd id="pokemonWeight"></dd>
-            </div>
-            <div>
-              <dt>ID</dt>
-              <dd id="pokemonId"></dd>
-            </div>
-          </dl>
-        </div>
-      </section>
-    </section>
-    <section>
-    <p><strong>hint:</strong> pikachu, bulbasaur, charmander, squirtle, eevee, jigglypuff, meowth, psyduck, snorlax, gengar, machop, abra, onix, lapras, ditto, mr-mime </p>
-    </section>
-  </main>
-
-  <script src="script.js"></script>
+    
+    <script src="./js/script.js"></script>
 </body>
 </html>
